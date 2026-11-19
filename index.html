@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="杜有英的产品经理作品集：独立产品、校园活动产品、组织协作系统与 AI Agent 产品实践。">
+  <meta name="theme-color" content="#f7f4ec">
+  <title>杜有英 · 产品经理作品集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#work">跳到项目</a>
+
+  <header class="masthead" id="top">
+    <div class="masthead__issue" aria-label="作品集信息">
+      <span>PORTFOLIO · 2026</span>
+      <span>WUHAN / PRODUCT</span>
+    </div>
+    <div class="masthead__brand">
+      <a class="wordmark" href="#top" aria-label="返回顶部">杜有英</a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#work">项目</a>
+        <a href="#approach">方法</a>
+        <a href="mailto:nlumi1384@gmail.com">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="intro shell" aria-labelledby="intro-title">
+      <div class="intro__lead">
+        <p class="intro__eyebrow">武汉大学 · 市场营销 · 2028届</p>
+        <h1 id="intro-title">把问题想清楚，<br>也把产品做出来。</h1>
+      </div>
+      <div class="intro__profile">
+        <p>我是杜有英，一名能独立完成产品、也能负责复杂协作项目的产品经理。熟练使用 AI 工具与 Vibe Coding，把产品思考快速推进到可运行的原型和真实交付。</p>
+        <dl class="profile-facts">
+          <div><dt>组织角色</dt><dd>自强产品部部长</dd></div>
+          <div><dt>内容与运营</dt><dd>掌上武大部长 · 账号粉丝 12万+</dd></div>
+          <div><dt>工作方式</dt><dd>产品规划 · PRD · 原型 · AI 辅助交付</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="work shell" id="work" aria-labelledby="work-title">
+      <div class="work__header">
+        <div>
+          <p class="section-note">SELECTED WORK · 5 PROJECTS</p>
+          <h2 id="work-title">真实项目，按状态归档</h2>
+        </div>
+        <div class="filters" role="group" aria-label="筛选项目">
+          <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">全部</button>
+          <button type="button" class="filter" data-filter="solo" aria-pressed="false">独立完成</button>
+          <button type="button" class="filter" data-filter="lead" aria-pressed="false">产品负责</button>
+          <button type="button" class="filter" data-filter="pm" aria-pressed="false">PM</button>
+        </div>
+      </div>
+
+      <div class="project-grid" id="project-grid">
+        <article class="project-card project-card--travel" data-category="solo" data-project="travel">
+          <button class="project-card__button" type="button" aria-label="查看旅行猫猫项目详情">
+            <div class="project-card__visual visual-travel" aria-hidden="true">
+              <span class="cat-window">旅</span><span class="cat-orbit">审核中</span>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__meta"><span>独立产品</span><span class="status">审核 / 认证中</span></div>
+              <h3>旅行猫猫</h3>
+              <p>从灵感、产品到上线，全流程独立完成的小程序。</p>
+              <span class="card-action">查看视频与小程序码</span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-card--event" data-category="lead" data-project="event">
+          <button class="project-card__button" type="button" aria-label="查看专交遇见你项目详情">
+            <div class="project-card__visual visual-event" aria-hidden="true">
+              <span>1,000+</span><small>annual participants</small>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__meta"><span>产品负责人</span><span class="status">迭代开发中</span></div>
+              <h3>专交遇见你</h3>
+              <p>服务千人级校园活动的必用小程序，基于往届产品持续迭代。</p>
+              <span class="card-action">查看约束与协作</span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-card--ziqiang" data-category="lead" data-project="ziqiang">
+          <button class="project-card__button" type="button" aria-label="查看自强独立站项目详情">
+            <div class="project-card__visual visual-image">
+              <img src="assets/ziqiang-gantt.png" alt="自强 Hub 甘特视图原型局部" width="1155" height="376">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__meta"><span>项目负责人</span><span class="status">验收修复中</span></div>
+              <h3>自强独立站</h3>
+              <p>负责 Hub 与管理端 PRD、产品设计和 Demo，协同团队完成其他模块。</p>
+              <span class="card-action">查看 PRD 结构与原型</span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-card--xinyuan" data-category="solo" data-project="xinyuan">
+          <button class="project-card__button" type="button" aria-label="查看珞珈心源成员网站项目详情">
+            <div class="project-card__visual visual-xinyuan" aria-hidden="true">
+              <span class="xinyuan-title">相逢珞珈<br>心自有源</span>
+              <span class="xinyuan-count">≈ 50 users</span>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__meta"><span>独立开发</span><span class="status status--live">已上线</span></div>
+              <h3>珞珈心源成员网站</h3>
+              <p>为成员信息浏览与搜索设计并独立开发，约 50 人使用。</p>
+              <span class="card-action">查看运行网站</span>
+            </div>
+          </button>
+        </article>
+
+        <article class="project-card project-card--ulink" data-category="pm" data-project="ulink">
+          <button class="project-card__button" type="button" aria-label="查看 ULink 项目详情">
+            <div class="project-card__visual visual-ulink" aria-hidden="true">
+              <span>U</span><span>LINK</span><i>AI Agent · in progress</i>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__meta"><span>唯一 PM</span><span class="status">Agent 调试中</span></div>
+              <h3>ULink</h3>
+              <p>独立完成全部 PRD，负责规划、需求架构与产品方案；Demo 由团队成员制作。</p>
+              <span class="card-action">查看产品职责与 Demo</span>
+            </div>
+          </button>
+        </article>
+      </div>
+      <p class="empty-state" id="empty-state" hidden>该筛选下暂时没有项目。</p>
+    </section>
+
+    <section class="approach shell" id="approach" aria-labelledby="approach-title">
+      <div class="approach__title">
+        <p class="section-note">HOW I WORK</p>
+        <h2 id="approach-title">从判断，到交付</h2>
+      </div>
+      <ol class="approach__steps">
+        <li><span>发现</span><h3>先确认真实约束</h3><p>用户是谁、场景是否成立、时间和组织边界是什么。</p></li>
+        <li><span>定义</span><h3>把复杂度写进 PRD</h3><p>明确流程、权限、状态闭环和验收条件，避免团队靠猜。</p></li>
+        <li><span>实现</span><h3>用原型缩短沟通</h3><p>必要时通过 AI 工具与 Vibe Coding，把抽象方案变成可运行 Demo。</p></li>
+        <li><span>校验</span><h3>真实标注项目状态</h3><p>上线、测试、审核、修复各自说明，不用虚构指标证明价值。</p></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <div>
+        <p class="footer__lead">想讨论产品、实习或一次合作？</p>
+        <a class="email-link" href="mailto:nlumi1384@gmail.com">nlumi1384@gmail.com</a>
+      </div>
+      <div class="footer__meta"><span>杜有英</span><span>武汉大学 · 2028</span><a href="#top">回到顶部</a></div>
+    </div>
+  </footer>
+
+  <dialog class="case-dialog" id="case-dialog" aria-labelledby="case-title">
+    <button class="dialog-close" type="button" aria-label="关闭项目详情">关闭</button>
+    <article class="case" id="case-content"></article>
+  </dialog>
+</body>
+</html>
