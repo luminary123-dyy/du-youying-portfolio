@@ -1,0 +1,49 @@
+/* Hallmark · macrostructure: Portfolio Grid · tone: editorial product magazine · anchor hue: coral */
+:root {
+  --color-paper: oklch(97% 0.012 88);
+  --color-paper-2: oklch(93% 0.02 88);
+  --color-ink: oklch(22% 0.035 255);
+  --color-ink-2: oklch(35% 0.03 255);
+  --color-muted: oklch(48% 0.025 255);
+  --color-rule: oklch(79% 0.02 85);
+  --color-accent: oklch(65% 0.17 36);
+  --color-accent-ink: oklch(19% 0.03 36);
+  --color-cyan: oklch(76% 0.11 199);
+  --color-cyan-ink: oklch(20% 0.04 220);
+  --color-blue: oklch(47% 0.12 252);
+  --color-blue-ink: oklch(98% 0.01 250);
+  --color-green: oklch(44% 0.09 156);
+  --color-green-ink: oklch(98% 0.01 156);
+  --color-focus: oklch(48% 0.18 255);
+  --color-error: oklch(52% 0.18 27);
+  --color-backdrop: oklch(15% 0.03 255 / 0.76);
+  --font-display: "Newsreader", "Noto Serif SC", "Songti SC", serif;
+  --font-body: "IBM Plex Sans", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --font-mono: var(--font-body);
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 7rem;
+  --text-xs: 0.78rem;
+  --text-sm: 0.9rem;
+  --text-base: 1rem;
+  --text-lg: 1.22rem;
+  --text-xl: 1.55rem;
+  --text-2xl: 2.05rem;
+  --text-3xl: clamp(2.5rem, 7vw, 5.8rem);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 140ms;
+  --dur-base: 260ms;
+  --rule-thin: 1px;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+}
+
